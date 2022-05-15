@@ -26,9 +26,19 @@ body{
     letter-spacing: 0.02em;
     list-style-type: none;
 }
-.menu>li>a{
+.menu>.menu-item>.menu-clr{
+    color: #2196F3;
+}
+.menu>.menu-item>.menu-port{
+    color: #2196F3;
+}
+.menu-item>.menu-link{
     text-decoration: none;
     color: #212121;
+}
+.menu-item .menu-link:hover,
+.menu-item .menu-link:focus{
+    color: #2196F3;
 }
 .contacts{
     font-weight: 500;
@@ -37,10 +47,6 @@ body{
     letter-spacing: 0.02em;
     font-style: normal;
     list-style-type: none;
-}
-.menu>li>a:hover,
-.menu>li>a:focus{
-    color: #2196F3;
 }
 .contacts-mail,
 .contacts-tel{
@@ -55,6 +61,9 @@ body{
 }
 /*end*/
 /*effect busines*/
+.effect-items{
+    background: #2F303A;
+}
 .effect-heading{
     font-weight: 900;
     font-size: 44px;
@@ -63,13 +72,25 @@ body{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     font-style: normal;
+    color: #ffffff;
 }
 .btn-item{
-    text-align: center;
     letter-spacing: 0.06em;
     color: #ffffff;
     font-size: 16px;
-    line-height: 1.8;   
+    font-weight: 700;
+    line-height: 1.8;
+    background: #2196F3;  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    display: flex; 
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.btn-item:hover,
+.btn-item:focus{
+  background: #188CE8;
 }
 .btn{
     cursor: pointer;
@@ -126,41 +147,14 @@ body{
     letter-spacing: 0.03em;
 }
 /*end*/
-/*footer*/
-.logo-footer{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    text-decoration: none;
-    color: #212121;
-    letter-spacing: 0.03em;
-}
-.logo-footer>span{
-    color: #2196F3;
-}
-.addres-footer>span{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-}
-.addres-footer a{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    /* color: rgba(255,255, 255, 0.6); */
-    text-decoration: none;
-    letter-spacing: 0.03em;
-    line-height: 1.7;
-    color: rgba(255, 255, 255, 0.6);
-}
-/*footer end*/
+
 /*portfolio list*/
 /*btn portfolio*/
 .button-menu{
     list-style-type: none;
+}
+.btn-all{
+    background: #2196F3;
 }
 .button-project{
     font-weight: 500;
@@ -195,3 +189,42 @@ body{
     color: #757575;
 }
 /*project end*/
+/*footer*/
+.footer-block{
+    background-color: #2F303A;
+}
+.logo-footer{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 0.03em;
+}
+.logo-footer>span{
+    color: #2196F3;
+}
+.addres-footer>span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+.addres-footer a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* color: rgba(255,255, 255, 0.6); */
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+}
+.addres-footer a:hover,
+.addres-footer a:focus{
+    color: #ffffff;
+}
+/*footer end*/
