@@ -1,0 +1,240 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+/*header menu contacts*/
+.header-menu{
+
+}
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: #212121;
+    letter-spacing: 0.03em;
+}
+.logo span{
+    color: #2196F3;
+}
+.menu{
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+}
+.menu>.menu-item>.menu-clr{
+    color: #2196F3;
+}
+.menu>.menu-item>.menu-port{
+    color: #2196F3;
+}
+.menu-item>.menu-link{
+    text-decoration: none;
+    color: #212121;
+}
+.menu-item .menu-link:hover,
+.menu-item .menu-link:focus{
+    color: #2196F3;
+}
+.contacts{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    list-style-type: none;
+}
+.contacts-mail,
+.contacts-tel{
+    text-decoration: none;
+    color: #757575;
+}
+.contacts-mail:hover,
+.contacts-tel:hover,
+.contacts-mail:focus,
+.contacts-tel:focus{
+    color: #2196F3;
+}
+/*end*/
+/*effect busines*/
+.effect-items{
+    background: #2F303A;
+}
+.effect-heading{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #ffffff;
+}
+.btn-item{
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.8;
+    background: #2196F3;  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    display: flex; 
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.btn-item:hover,
+.btn-item:focus{
+  background: #188CE8;
+}
+.btn{
+    cursor: pointer;
+}
+/*end*/
+/*feature items*/
+.featurs-item{
+    list-style-type: none;
+}
+.feature-heading{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+.feature-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*end*/
+/*boxs-images*/
+.heading{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    line-height: 1.1;
+}
+.boxs-imges,
+.teamcard-imges{
+    list-style-type: none;
+    display: flex;
+}
+/*end*/
+/*teamcard*/
+.teamcards{
+    background: #F5F4FA;
+}
+.teamcard-heading{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.03em;
+    line-height: 1.1;
+}
+.teamcard-text{
+    font-size: 16px;
+    color: #757575;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/*end*/
+
+/*portfolio list*/
+/*btn portfolio*/
+.button-menu{
+    list-style-type: none;
+}
+
+.button-project{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    border-radius: 4px;
+}
+.btn-all{
+    background: #2196F3;
+    color: #ffffff;
+}
+.button-project:hover,
+.button-project:focus{
+    background-color: #2196F3;
+    color: #ffffff;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+/*buttons end*/
+/*projects*/
+.projects-item{
+    list-style-type: none;
+}
+.project-heading{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    line-height: 2;
+    color: #212121;
+}
+.project-text{
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 1.8;
+    color: #757575;
+}
+.projects-item>li>a{
+    text-decoration: none;
+}
+/*project end*/
+/*footer*/
+.footer-block{
+    background-color: #2F303A;
+}
+.logo-footer{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 0.03em;
+}
+.logo-footer>span{
+    color: #2196F3;
+}
+.addres-footer>span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+.addres-footer a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* color: rgba(255,255, 255, 0.6); */
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+}
+.addres-footer a:hover,
+.addres-footer a:focus{
+    color: #ffffff;
+}
+/*footer end*/
