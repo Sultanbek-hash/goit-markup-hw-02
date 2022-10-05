@@ -12,8 +12,12 @@ body{
     --font-accent: 'Roboto', sans-serif;
     --font-second: 'Raleway', sans-serif;
     --btn-hover: #188CE8;
+    --our-bgk: #F5F4FA;
 }
 /*header menu log*/
+.page-header{
+    background-color: var(--white-color);
+}
 .logo{
     font-family: var(--font-second);
     font-weight: 700;
@@ -126,6 +130,9 @@ body{
 }
 /*--------------end--------------*/
 /*-------------our teams-------------*/
+.team-section{
+    background-color: var(--our-bgk);
+}
 .team__heading{
     font-weight: 700;
     font-size: 36px;
@@ -220,6 +227,7 @@ body{
     list-style-type: none;
 }
 .address__link{
+    font-style: normal;
     text-decoration: none;
     font-weight: 400;
     font-size: 14px;
