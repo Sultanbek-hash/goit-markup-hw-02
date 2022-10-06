@@ -143,6 +143,9 @@ body{
 .teams{
     list-style-type: none;
 }
+.teams__title{
+    background-color: var(--white-color);
+}
 .teams__heading{
     font-weight: 500;
     font-size: 16px;
@@ -165,6 +168,7 @@ body{
     list-style-type: none;
 }
 .filter__btn{
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
